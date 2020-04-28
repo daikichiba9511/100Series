@@ -3,7 +3,7 @@ import matplotlib.pyplot as plt
 
 from pathlib import Path
 
-from typing import List, Union
+from typing import List, Union, Tuple
 Num = Union[int, float]
 Vector = List[Num]
 
