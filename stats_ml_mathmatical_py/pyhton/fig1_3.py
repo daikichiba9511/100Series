@@ -10,6 +10,6 @@ def main():
         plt.plot(x, stats.chi2.pdf(x, i), label=str(i))
     plt.legend(loc="best")
     plt.show()
-    # plt.savefig(base_dir/"stats_ml_mathmatical_py"/"fig"/"fig1-3_py.png")
+    plt.savefig(base_dir/"stats_ml_mathmatical_py"/"fig"/"fig1-3_py.png")
 if __name__ == "__main__":
     main()

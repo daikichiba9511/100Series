@@ -10,6 +10,7 @@ function main()
     legend(loc="best")
     display(fig)
     savefig("./stats_ml_mathmatical_py/fig/fig1-3_jl.png")
+    close(fig)
 end
 
 main()

@@ -31,7 +31,7 @@ function run()
     y_pre = x_seq * a1 .+ b1
     yy_pre = x_seq * a2 .+ b2
 
-    # plot 
+    # plot
     fig = figure(figsize=(10,10))
     scatter(x, y, alpha=0.6)
     axhline(0, c="black", linewidth=0.5)
@@ -46,5 +46,5 @@ function run()
     close(fig)
 end
 
-
+# main
 run()
