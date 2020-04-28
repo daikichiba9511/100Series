@@ -6,6 +6,8 @@ using Distributions
 using PyCall
 
 
+
+
 function min_sq(x::T, y::T) where {T<:AbstractArray} 
     x_bar, y_bar = mean(x), mean(y)
     beta1 = (x .- x_bar) ⋅ (y .- y_bar) / norm(x .- x_bar)^2 #(1.4)
