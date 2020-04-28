@@ -17,11 +17,11 @@ function main()
         b_1, b_0 = min_sq(x, y)
         scatter(b_0, b_1)
     end
-    
+
     axhline(1.0, c="black", linewidth=0.5)
     axvline(1.0, c="black", linewidth=0.5)
-    xlabel("beta_0")
-    ylabel("beta_1")
+    xlabel("β₀") # \beta\_0
+    ylabel("β₁") # \beta\_1
     grid()
     display(fig)
     savefig("./stats_ml_mathmatical_py/fig/fig1_4_jl.png")
